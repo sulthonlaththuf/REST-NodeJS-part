@@ -1,0 +1,26 @@
+POST http://localhost:1337/api/employee/
+Content-Type: application/json
+
+{
+    "name" : "boy",
+    "address" : "world"
+}
+
+###
+
+PUT http://localhost:1337/api/employee/7
+Content-Type: application/json
+
+{
+    "name" : "boy will",
+    "address" : "world"
+}
+
+###
+
+GET http://localhost:1337/api/employee/search
+Content-Type: application/json
+
+{
+    "search" : "j"
+}
